@@ -1,0 +1,44 @@
+{
+  "Test describe": {
+    "prefix": ["des", "desc", "describe"],
+    "body": [
+      "describe('${TM_FILENAME_BASE/(.test)//i} test suite', () => {",
+      "",
+      "});"
+    ],
+    "description": "Jest describe block"
+  },
+  "Test it.todo": {
+    "prefix": ["itt"],
+    "body": ["it.todo('should $1, when $2');"],
+    "description": "Jest it with todo"
+  },
+  "Test it": {
+    "prefix": ["it"],
+    "body": ["it('should $1, when $2', () => {", "\t$3", "});"],
+    "description": "Jest it"
+  },
+  "Test it async": {
+    "prefix": ["ita"],
+    "body": ["it('should $1, when $2', async () => {", "\t$3", "});"],
+    "description": "Jest it"
+  },
+  "Component test suite": {
+    "prefix": ["cts"],
+    "body": [
+      "import React from 'react';",
+      "import {render, screen} from '@testing-library/react';",
+      "import {axe} from 'jest-axe';",
+      "import userEvent from '@testing-library/user-event';",
+      "",
+      "import {${TM_FILENAME_BASE/(.test)//i}} from '../${TM_FILENAME_BASE/(.test)//i}'",
+      "",
+      "describe('${TM_FILENAME_BASE/(.test)//i} test suite', () => {",
+      "\tit.todo('should be accessible');",
+      "",
+      "\tit.todo('should $2, when $3');",
+      "});"
+    ],
+    "description": "Component test suite"
+  }
+}
