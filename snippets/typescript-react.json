@@ -1,6 +1,6 @@
 {
   "Prop-less functional component": {
-    "prefix": ["fc", "react propless functional component"],
+    "prefix": ["fc", "react prop-less functional component"],
     "body": [
       "import React from 'react';\n",
       "export const $TM_FILENAME_BASE: React.FC = () => {",
@@ -35,7 +35,7 @@
     "description": "A TypeScript React arrow function component with type"
   },
   "Memoized prop-less functional component": {
-    "prefix": ["fcm", "react memoized propless functional component"],
+    "prefix": ["fcm", "react memoized prop-less functional component"],
     "body": [
       "import React from 'react';\n",
       "const $TM_FILENAME_BASE: React.FC = () => {",
