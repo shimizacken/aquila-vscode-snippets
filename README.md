@@ -18,10 +18,13 @@
 
 ## Tests snippets
 
-| Prefix | Method                                                       |
-| ------ | ------------------------------------------------------------ |
-| `fc->` | TypeScript React arrow function component without properties |
-| `fc->` | TypeScript React arrow function component without properties |
+| Prefix  | Method                                    |
+| ------- | ----------------------------------------- |
+| `des->` | `describe` block                          |
+| `itt->` | `it.todo('should ..., when ...')`         |
+| `it->`  | `it('should ..., when ...', () => {...})` |
+| `ita->` | async it                                  |
+| `cts->` | Component test suite                      |
 
 ## Storybook snippets
 

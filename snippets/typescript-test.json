@@ -21,7 +21,7 @@
   "Test it async": {
     "prefix": ["ita"],
     "body": ["it('should $1, when $2', async () => {", "\t$3", "});"],
-    "description": "Jest it"
+    "description": "Jest async it"
   },
   "Component test suite": {
     "prefix": ["cts"],
