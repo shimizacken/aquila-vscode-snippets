@@ -25,8 +25,8 @@
 
 ## Storybook snippets
 
-| Prefix   | Method        |
-| -------- | ------------- |
-| `stre->` | Element story |
-| `strm->` | Module story  |
-| `astr->` | Feature story |
+| Prefix   | Method           |
+| -------- | ---------------- |
+| `stre->` | Foundation story |
+| `strm->` | Module story     |
+| `astr->` | Feature story    |
