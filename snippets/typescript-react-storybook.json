@@ -1,0 +1,48 @@
+{
+  "Module component story": {
+    "prefix": ["strm", "story", "Component module Storybook story"],
+    "body": [
+      "import React from 'react';\n",
+      "import {select, text, withKnobs} from '@storybook/addon-knobs';",
+      "import {action} from '@storybook/addon-actions';",
+      "import {withA11y} from '@storybook/addon-a11y';",
+      "",
+      "import {${TM_FILENAME_BASE/(.stories)//i}} from '../${TM_FILENAME_BASE/(.stories)//i}';",
+      "",
+      "export default {",
+      "\ttitle: 'Components | Modules/${TM_FILENAME_BASE/(.stories)//i}',",
+      "\tcomponent: ${TM_FILENAME_BASE/(.stories)//i},",
+      "\tdecorators: [withKnobs, withA11y]",
+      "};",
+      "",
+      "export const Default = () => (",
+      "\t<${TM_FILENAME_BASE/(.stories)//i} />",
+      ");",
+      ""
+    ],
+    "description": "TypeScript Storybook story"
+  },
+  "Aquila feature story": {
+    "prefix": ["astr", "astory", "Aquila feature Storybook story"],
+    "body": [
+      "import React from 'react';\n",
+      "import {withKnobs, boolean, text} from '@storybook/addon-knobs';",
+      "import {action} from '@storybook/addon-actions';",
+      "import {withA11y} from '@storybook/addon-a11y';",
+      "",
+      "import {${TM_FILENAME_BASE/(.stories)//i}} from '../${TM_FILENAME_BASE/(.stories)//i}';",
+      "",
+      "export default {",
+      "\ttitle: 'Aquila | $1/${TM_FILENAME_BASE/(.stories)//i}',",
+      "\tcomponent: ${TM_FILENAME_BASE/(.stories)//i},",
+      "\tdecorators: [withKnobs, withA11y]",
+      "};",
+      "",
+      "export const Default = () => (",
+      "\t<${TM_FILENAME_BASE/(.stories)//i} />",
+      ");",
+      ""
+    ],
+    "description": "TypeScript Storybook story"
+  }
+}
