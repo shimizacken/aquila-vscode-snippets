@@ -32,4 +32,4 @@
 | -------- | ---------------- |
 | `stre->` | Foundation story |
 | `strm->` | Module story     |
-| `astr->` | Feature story    |
+| `stra->` | Feature story    |
